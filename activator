@@ -132,8 +132,8 @@ get_mem_opts () {
   (( $meta > 256 )) || meta=256
   (( $meta < 1024 )) || meta=1024
 
-  mem=512
-  meta=512
+  mem=128
+  meta=128
 
   # default is to set memory options but this can be overridden by code section below
   memopts="-Xms${mem}m -Xmx${mem}m"
